@@ -26,10 +26,21 @@ export const catalog = [
       {
         id: "sem3-cse-2323",
         code: "CSE-2323",
-        name: "CSE-2323 Course",
-        title: "CSE-2323 Course",
-        driveLink: "https://drive.google.com/drive/folders/cse-2323",
-        finalTopics: makeTopics("sem3-cse-2323", ["Chapter 1", "Chapter 2", "Chapter 3"]),
+        name: "Digital Logic Design",
+        driveUrl: "PLACEHOLDER", // Your CSE-2323 Notes Drive link
+        finalTopics: [
+          { id: "cse2323-f01", title: "JK Flip-Flop Design, Characteristic/Excitation Tables & Indeterminate State Removal" },
+          { id: "cse2323-f02", title: "Master-Slave Flip-Flops & Race-Around Condition Resolution" },
+          { id: "cse2323-f03", title: "Flip-Flop Conversions (SR to JK/D/T & Reverse) & Latch vs. Flip-Flop" },
+          { id: "cse2323-f04", title: "Hierarchical Decoders (4x16, 5x32) & Full Adder via Decoder" },
+          { id: "cse2323-f05", title: "Multiplexers (Boolean Functions, 8x1 MUX, Full Adder via MUX & MUX Bus)" },
+          { id: "cse2323-f06", title: "Parallel Adders, Carry Propagation Delay & Carry Look-Ahead Generator" },
+          { id: "cse2323-f07", title: "3-Bit Magnitude & Equality Comparators" },
+          { id: "cse2323-f08", title: "Custom Synchronous Counters, Up-Down Counters & Async/BCD Counters" },
+          { id: "cse2323-f09", title: "Clocked Sequential Circuit Synthesis (State Equations) & Circuit/Diagram Analysis" },
+          { id: "cse2323-f10", title: "Shift Registers (SISO, SIPO, PISO, Universal) & Ring/Johnson Counters" },
+          { id: "cse2323-f11", title: "Programmable Logic Arrays (PLA), PAL/ROM & RAM Cell/Address Line Design" },
+        ],
       },
       {
         id: "sem3-stat-2311",
